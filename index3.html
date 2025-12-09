@@ -1,0 +1,150 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>SoleMuse — Форма обратной связи</title>
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet">
+  <link rel="stylesheet" href="styles3.css">
+</head>
+<body>
+
+<header class="container-fluid px-4 py-3 border-bottom border-dark">
+  <div class="d-flex flex-wrap align-items-center justify-content-between">
+    
+    <div class="col-12 col-md-auto mb-2 mb-md-0">
+      <a href="index.html" class="d-inline-block">
+        <img src="фото и материалы/лого.png" alt="SoleMuse" height="30">
+      </a>
+    </div>
+    
+    <nav class="col-12 col-md-auto order-2 order-md-2 d-flex flex-wrap justify-content-center my-2 my-md-0">
+      <a href="index.html" class="mx-3 text-dark text-decoration-none fw-medium text-uppercase">ГЛАВНАЯ</a>
+      <a href="index.html#philosophy" class="mx-3 text-dark text-decoration-none fw-medium text-uppercase">О БРЕНДЕ</a>
+      <a href="index2.html" class="mx-3 text-dark text-decoration-none fw-medium text-uppercase">КОЛЛЕКЦИИ</a>
+      <a href="index.html#magazine" class="mx-3 text-dark text-decoration-none fw-medium text-uppercase">ЖУРНАЛ</a>
+      <a href="index3.html" class="mx-3 text-dark text-decoration-none fw-medium text-uppercase active">ФОРМА ОБРАТНОЙ СВЯЗИ</a>
+    </nav>
+    
+    <div class="col-12 col-md-auto order-2 d-flex justify-content-center gap-3 my-2 my-md-0">
+      <img src="фото и материалы/instagram.png" alt="Instagram" width="20" height="20">
+      <img src="фото и материалы/Pinterest.png" alt="Pinterest" width="20" height="20">
+      <img src="фото и материалы/Tiktok.png" alt="Tiktok" width="20" height="20">
+      <img src="фото и материалы/youtube.png" alt="Youtube" width="20" height="20">
+    </div>
+  </div>
+</header>
+  
+  <section class="feedback-section">
+    <div class="container">
+      <div class="row">
+        <div class="col-lg-6">
+          <div class="feedback-content-wrapper">
+            <h2 class="feedback-heading">ОБУВЬ ГОВОРИТ ЗА ТЕБЯ,<br>А ЧТО ТЫ ХОЧЕШЬ СКАЗАТЬ НАМ?</h2>
+          </div>
+        </div>
+
+        <div class="col-lg-6">
+          <div class="feedback-form-container">
+            <form id="contactForm" class="needs-validation" novalidate>
+              <div class="form-field-wrapper">
+                <div class="field-placeholder" data-target="name">
+                  <span>Имя</span>
+                  <span class="arrow">→</span>
+                </div>
+                <input type="text" class="form-input" id="name" placeholder="Ваше имя" required>
+              </div>
+              
+              <div class="row">
+                <div class="col-md-6">
+                  <div class="form-field-wrapper">
+                    <div class="field-placeholder" data-target="email">
+                      <span>Email</span>
+                      <span class="arrow">→</span>
+                    </div>
+                    <input type="email" class="form-input" id="email" placeholder="Ваш email" required>
+                  </div>
+                </div>
+                <div class="col-md-6">
+                  <div class="form-field-wrapper">
+                    <div class="field-placeholder" data-target="phone">
+                      <span>Телефон</span>
+                      <span class="arrow">→</span>
+                    </div>
+                    <input type="tel" class="form-input" id="phone" placeholder="Ваш номер телефона" required>
+                  </div>
+                </div>
+              </div>
+              
+              <div class="mb-4">
+                <label for="comment" class="form-label">Комментарий</label>
+                <textarea class="form-control custom-input textarea-bordered" id="comment" placeholder="Ваш комментарий" required></textarea>
+                <div class="invalid-feedback">
+                  Пожалуйста, введите ваш комментарий.
+                </div>
+              </div>
+              
+              <button type="submit" class="btn btn-custom w-100 py-3">ОТПРАВИТЬ СООБЩЕНИЕ</button>
+            </form>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section class="success-section d-none" id="successSection">
+    <div class="container">
+      <div class="success-message text-center">
+        <h2 class="mb-4">ТВОЁ СООБЩЕНИЕ МЯГКО ПРИЗЕМЛИЛОСЬ У НАС!</h2>
+        <p class="mb-5 fs-5">Мы обязательно ответим — очень скоро.</p>
+        <a href="index.html" class="btn btn-custom px-5 py-3">НА ГЛАВНУЮ</a>
+      </div>
+    </div>
+  </section>
+
+  <footer class="container">
+    <div class="row text-center">
+      <div class="col-12">
+        <div class="footer-logo">
+          <img src="фото и материалы/название.png" alt="SoleMuse">
+          <p class="love-note">(Создано с любовью к деталям)</p>
+        </div>
+      </div>
+    </div>
+
+    <div class="row text-center">
+      <div class="col-12">
+    <div class="d-flex justify-content-center gap-2 mb-4">
+      <img src="фото и материалы/instagram.png" alt="Instagram" width="20" height="20">
+      <img src="фото и материалы/Pinterest.png" alt="Pinterest" width="20" height="20">
+      <img src="фото и материалы/Tiktok.png" alt="Tiktok" width="20" height="20">
+      <img src="фото и материалы/youtube.png" alt="Youtube" width="20" height="20">
+        </div>
+      </div>
+    </div>
+
+    <div class="row text-center">
+      <div class="col-12">
+    <nav class="d-flex justify-content-center flex-wrap gap-3 mb-4">
+      <a class="text-decoration-none text-dark" href="index.html">ГЛАВНАЯ</a>
+      <a class="text-decoration-none text-dark" href="#philosophy">О БРЕНДЕ</a>
+      <a class="text-decoration-none text-dark" href="index2.html">КОЛЛЕКЦИИ</a>
+      <a class="text-decoration-none text-dark" href="#magazine">ЖУРНАЛ</a>
+      <a class="text-decoration-none text-dark" href="index3.html">ФОРМА ОБРАТНОЙ СВЯЗИ</a>
+    </nav>
+      </div>
+    </div>
+
+    <div class="row text-center">
+      <div class="col-12">
+        <div class="footer-bottom">
+          <p class="privacy">Политика конфиденциальности</p>
+          <p>© 2025 SoleMuse. Все права защищены.</p>
+        </div>
+      </div>
+    </div>
+  </footer>
+
+  <script src="script3.js"></script>
+</body>
+</html>
