@@ -1,0 +1,267 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>SoleMuse</title>
+  <link rel="stylesheet" href="styles2.css">
+</head>
+<body>
+
+  <header class="container header">
+    <div class="logo">
+      <a href="index.html">
+        <img src="фото_и_материалы/лого.png" alt="SoleMuse">
+      </a>
+    </div>
+
+    <nav class="nav-links">
+      <a href="index.html">Главная</a>
+      <a href="#philosophy">о бренде</a>
+      <a href="index2.html" class="active">коллекции</a>
+      <a href="#magazine">журнал</a>
+      <a href="index3.html">форма обратной связи</a>
+    </nav>
+
+    <div class="socials">
+      <img src="фото_и_материалы/instagram.png" alt="Instagram">
+      <img src="фото_и_материалы/Pinterest.png" alt="Pinterest">
+      <img src="фото_и_материалы/Tiktok.png" alt="Tiktok">
+      <img src="фото_и_материалы/youtube.png" alt="Youtube">
+    </div>
+  </header>
+
+
+<section class="hero-section">
+  <div class="hero-content">
+    <h1 class="hero-title">
+      КОЛЛЕКЦИИ — ЭТО НЕ СЕЗОН.<br>
+      ЭТО ЭМОЦИИ, ЗАПЕЧАТЛЁННЫЕ В КОЖЕ
+    </h1>
+  <img src="фото_и_материалы/2страница.png" alt="SoleMuse Collection" class="hero-image">
+  <p class="hero-subtitle">
+    У SoleMuse нет «весны» и «осени». Есть только то, что ты чувствуешь сегодня.<br>
+    Каждая коллекция рождается из одного вопроса: «Какую версию себя вы хотите показать миру прямо сейчас?»<br>
+    Мы не диктуем — мы предлагаем язык. Язык форм, текстур, линий.<br>
+    Выбери свой.
+  </p>
+    </div>
+</section>
+  
+    <div class="section-title">ВСЕ КОЛЛЕКЦИИ</div>
+  
+  <div class="filters-block container">
+    <div class="filters-container">
+      <button class="filter-item active">ТУФЛИ</button>
+      <button class="filter-item">САНДАЛИИ</button>
+      <button class="filter-item">ЛОФЕРЫ</button>
+      <button class="filter-item">МЮЛИ</button>
+      <button class="filter-item">БОТФОРТЫ</button>
+    </div>
+  </div>
+
+  <section class="collections-block container">
+    <div class="collections-grid">
+      <div class="collection-item">
+        <img src="фото_и_материалы/1_фото.png" alt="ECHO">
+        <h3>ECHO</h3>
+        <p>Резкий силуэт и окрашенная вручную кожа — стойкая мысль, которую невозможно забыть.</p>
+        <button class="btn-view" onclick="openEchoPopup()">ПОСМОТРЕТЬ</button>
+      </div>
+
+      <div class="collection-item">
+        <img src="фото_и_материалы/6фото.jpg" alt="THESIS">
+        <h3>THESIS</h3>
+        <p>Чистые линии, архитектурный каблук, никаких компромиссов. Не просто обувь — экзамен.</p>
+        <button class="btn-view">ПОСМОТРЕТЬ</button>
+      </div>
+
+      <div class="collection-item">
+        <img src="фото_и_материалы/7фото.jpg" alt="MUSE NO.7">
+        <h3>MUSE NO.7</h3>
+        <p>Мания в честь садового варианта наброска — той части, в которой всё наоборот вызывает смех.</p>
+        <button class="btn-view">ПОСМОТРЕТЬ</button>
+      </div>
+
+      <div class="collection-item">
+        <img src="фото_и_материалы/8фото.jpg" alt="SILENCE">
+        <h3>SILENCE</h3>
+        <p>Матовая белая текстура кожи, без украшений. Только точность, вес и спокойная уверенность.</p>
+        <button class="btn-view">ПОСМОТРЕТЬ</button>
+      </div>
+
+      <div class="collection-item">
+        <img src="фото_и_материалы/9фото.png" alt="VERIDIAN">
+        <h3>VERIDIAN</h3>
+        <p>Ручное окрашивание натуральными пигментами — тон лишь переливается при разном освещении.</p>
+        <button class="btn-view">ПОСМОТРЕТЬ</button>
+      </div>
+    </div>
+  </section>
+
+  <footer class="container footer">
+    <div class="footer-logo">
+      <img src="фото_и_материалы/название.png" alt="SoleMuse">
+      <p class="love-note">(Создано с любовью к деталям)</p>
+    </div>
+
+    <div class="footer-socials-wrapper">
+      <div class="footer-socials">
+        <img src="фото_и_материалы/instagram.png" alt="Instagram">
+        <img src="фото_и_материалы/Pinterest.png" alt="Pinterest">
+        <img src="фото_и_материалы/Tiktok.png" alt="Tiktok">
+        <img src="фото_и_материалы/youtube.png" alt="Youtube">
+      </div>
+    </div>
+
+    <nav class="footer-nav">
+      <a href="index.html">Главная</a>
+      <a href="#philosophy">о бренде</a>
+      <a href="collections.html" class="active">коллекции</a>
+      <a href="#magazine">журнал</a>
+      <a href="#contacts">форма обратной связи</a>
+    </nav>
+
+    <div class="footer-bottom">
+      <p class="privacy">Политика конфиденциальности</p>
+      <p>© 2025 SoleMuse. Все права защищены.</p>
+    </div>
+  </footer>
+  
+<div id="echo-popup" class="popup-overlay">
+    <div class="popup">
+        <button class="close-btn">×</button>
+
+        <div class="gallery">
+            <img src="фото_и_материалы/1_фото.png" alt="ECHO фото1">
+            <img src="фото_и_материалы/фото2.png" alt="ECHO фото2">
+            <img src="фото_и_материалы/фото3.png" alt="ECHO фото3">
+        </div>
+
+        <div class="title">ECHO</div>
+        <div class="subtitle">Резкий силуэт и окрашенная вручную кожей, — словно мысль, которую невозможно забыть.</div>
+
+        <div class="accordion">
+            <div class="accordion-item">
+                <div class="accordion-header" onclick="toggleAccordion(this)">
+                    <span>Материал</span>
+                    <span class="arrow">▼</span>
+                </div>
+                <div class="accordion-content">
+                    Натуральная кожа высшего качества, окрашенная вручную экологичными пигментами
+                </div>
+            </div>
+
+            <div class="accordion-item">
+                <div class="accordion-header" onclick="toggleAccordion(this)">
+                    <span>Каблук</span>
+                    <span class="arrow">▼</span>
+                </div>
+                <div class="accordion-content">
+                    Умеренный каблук высотой 7 см, обеспечивающий элегантность и комфорт
+                </div>
+            </div>
+
+            <div class="accordion-item">
+                <div class="accordion-header" onclick="toggleAccordion(this)">
+                    <span>Уход</span>
+                    <span class="arrow">▼</span>
+                </div>
+                <div class="accordion-content">
+                    Чистка только специализированными средствами для натуральной кожи
+                </div>
+            </div>
+
+            <div class="accordion-item">
+                <div class="accordion-header" onclick="toggleAccordion(this)">
+                    <span>Особенности</span>
+                    <span class="arrow">▼</span>
+                </div>
+                <div class="accordion-content">
+                    Острый носок, ручная окраска, уникальный паттерн стежки
+                </div>
+            </div>
+        </div>
+
+        <div class="description">
+            Модель ECHO — не для того, чтобы быть замеченной. Она для того, чтобы остаться в памяти.<br>
+            Классические лаконичные туфли с острым носом и умеренным каблуком — не просто обувь, а продолжение внутренней уверенности. ECHO созданы для тех моментов, когда слова излишни, но ваше появление должно оставить след. Название вдохновлено эхом: не крик, а отзвук — тихий, но неизгладимый.
+        </div>
+    </div>
+</div>
+
+<script>
+function openEchoPopup() {
+    document.getElementById('echo-popup').style.display = 'flex';
+    document.body.style.overflow = 'hidden';
+    // Открываем первый аккордеон при открытии попапа
+    setTimeout(() => {
+        const firstAccordion = document.querySelector('.accordion-header');
+        if (firstAccordion && !firstAccordion.classList.contains('active')) {
+            toggleAccordion(firstAccordion);
+        }
+    }, 100);
+}
+
+function closeEchoPopup() {
+    document.getElementById('echo-popup').style.display = 'none';
+    document.body.style.overflow = 'auto';
+}
+
+function toggleAccordion(header) {
+    const content = header.nextElementSibling;
+    const isActive = header.classList.contains('active');
+
+    if (isActive) {
+        header.classList.remove('active');
+        content.classList.remove('active');
+        content.style.maxHeight = null;
+    } else {
+        const allHeaders = document.querySelectorAll('.accordion-header');
+        const allContents = document.querySelectorAll('.accordion-content');
+        
+        allHeaders.forEach(h => h.classList.remove('active'));
+        allContents.forEach(c => {
+            c.classList.remove('active');
+            c.style.maxHeight = null;
+        });
+        
+        header.classList.add('active');
+        content.classList.add('active');
+        content.style.maxHeight = content.scrollHeight + "px";
+    }
+}
+
+document.addEventListener('DOMContentLoaded', function() {
+    const closeBtn = document.querySelector('.close-btn');
+    if (closeBtn) {
+        closeBtn.addEventListener('click', closeEchoPopup);
+    }
+    
+    const popup = document.getElementById('echo-popup');
+    if (popup) {
+        popup.addEventListener('click', function(e) {
+            if (e.target === this) {
+                closeEchoPopup();
+            }
+        });
+    }
+    
+    const firstAccordion = document.querySelector('.accordion-header');
+    if (firstAccordion) {
+        const content = firstAccordion.nextElementSibling;
+        firstAccordion.classList.add('active');
+        content.classList.add('active');
+        content.style.maxHeight = content.scrollHeight + "px";
+    }
+});
+
+document.addEventListener('keydown', function(e) {
+    if (e.key === 'Escape') {
+        closeEchoPopup();
+    }
+});
+</script>
+  
+</body>
+</html>
